@@ -58,6 +58,15 @@
   box-sizing: border-box;
 }
 
+.peopleLableWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error fieldset {
+  border: 2px solid red !important;
+}
+
 @include breakpoint("laptopLandscape") {
   .mainWrapper {
     padding: 0;
