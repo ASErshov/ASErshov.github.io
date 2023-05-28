@@ -2,6 +2,7 @@
   "name": "calculatortest",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ASErshov.github.io/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -23,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -67,6 +70,7 @@
   "devDependencies": {
     "@types/react-test-renderer": "^18.0.0",
     "eslint": "^8.41.0",
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
     "jest-watch-typeahead": "^0.6.5",
     "lint-staged": "^13.2.2",
