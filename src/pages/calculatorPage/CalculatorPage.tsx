@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import CalculatorForm from "./components/CalculatorForm/CalculatorForm";
 import styles from "./CalculatorPage.module.scss";
+import Results from "./components/Results.tsx/Results";
 
 const CalculatorPage: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const CalculatorPage: React.FC = () => {
         }}
       >
         <CalculatorForm />
+        <Results />
       </Box>
     </Box>
   );
