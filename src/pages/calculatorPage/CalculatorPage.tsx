@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
+import CalculatorForm from "./components/CalculatorForm/CalculatorForm";
 import styles from "./CalculatorPage.module.scss";
 
 const CalculatorPage: React.FC = () => {
@@ -21,7 +22,9 @@ const CalculatorPage: React.FC = () => {
         sx={{
           backgroundColor: "common.white",
         }}
-      ></Box>
+      >
+        <CalculatorForm />
+      </Box>
     </Box>
   );
 };
