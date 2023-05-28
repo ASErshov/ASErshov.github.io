@@ -1,6 +1,6 @@
 ## About project
 
-## Commit validation
+### Commit validation
 
 You will able to create commit only if commit message start with "feat:" or "fix"
 
