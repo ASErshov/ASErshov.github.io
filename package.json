@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -33,6 +33,12 @@
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": "eslint",
     "src/**/*.{js,jsx,ts,tsx,css,scss,md}": "prettier --write --ignore-unknown"
+  },
+  "config": {
+    "commit-message-validator": {
+      "pattern": "^(feat|fix): [\\s\\S]*(\\[>\\])?\\n?$",
+      "errorMessage": "Commit message must match pattern in package.json. Example: \"feat: new logo \""
+    }
   },
   "browserslist": {
     "production": [
