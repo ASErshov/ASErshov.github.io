@@ -46,6 +46,12 @@
       "errorMessage": "Commit message must match pattern in package.json. Example: \"feat: new logo \""
     }
   },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "<rootDir>/src/reportWebVitals.ts",
+      "<rootDir>/src/index.tsx"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -59,9 +65,12 @@
     ]
   },
   "devDependencies": {
+    "@types/react-test-renderer": "^18.0.0",
     "eslint": "^8.41.0",
     "husky": "^8.0.3",
+    "jest-watch-typeahead": "^0.6.5",
     "lint-staged": "^13.2.2",
-    "prettier": "2.8.8"
+    "prettier": "2.8.8",
+    "react-test-renderer": "^18.2.0"
   }
 }

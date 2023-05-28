@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches DOM Snapshot 1`] = `
+<div
+  className="mainWrapper MuiBox-root css-4ozt90"
+>
+  <div>
+    <div
+      className="resultWrapper"
+    >
+      <div
+        className="titleWrapper"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body2 css-1cl5n3e-MuiTypography-root"
+        >
+          Tip Amount
+        </span>
+        <span
+          className="MuiTypography-root MuiTypography-body2 css-d9r3jl-MuiTypography-root"
+        >
+          /person
+        </span>
+      </div>
+      <span
+        className="MuiTypography-root MuiTypography-h2 label css-wf8t3v-MuiTypography-root"
+      >
+        $  0.00
+      </span>
+    </div>
+    <div
+      className="resultWrapper"
+    >
+      <div
+        className="titleWrapper"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body2 css-1cl5n3e-MuiTypography-root"
+        >
+          Total
+        </span>
+        <span
+          className="MuiTypography-root MuiTypography-body2 css-d9r3jl-MuiTypography-root"
+        >
+          / person
+        </span>
+      </div>
+      <span
+        className="MuiTypography-root MuiTypography-h2 label css-wf8t3v-MuiTypography-root"
+      >
+        $ 0.00
+      </span>
+    </div>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium resultButton css-14y9evz-MuiButtonBase-root-MuiButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[MockFunction]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    RESET
+  </button>
+</div>
+`;

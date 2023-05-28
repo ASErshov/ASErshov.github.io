@@ -19,7 +19,7 @@ const useCalculator = (): Calculator => {
 
   const calculate = useCallback((values: CalculatorValues): void => {
     if (values.peopleNumber && Number(values.peopleNumber)) {
-      const total = (Number(values.bill) || 0) / Number(values.peopleNumber);
+      const total = Number(values.bill) / Number(values.peopleNumber);
       const tip = (total / 100) * values.tip;
       setError(false);
       setResults({ tip: tip.toFixed(2).toString(), total: total.toFixed(2).toString() });
@@ -30,7 +30,7 @@ const useCalculator = (): Calculator => {
     setIsReset(false);
   }, []);
 
-  const reset = useCallback(() => {
+  const reset = useCallback((): void => {
     setResults(DEFAULT_RESULTS);
     setError(false);
     setIsReset(true);

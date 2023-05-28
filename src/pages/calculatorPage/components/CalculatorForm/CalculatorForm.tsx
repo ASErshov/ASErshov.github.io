@@ -16,7 +16,7 @@ const CalculatorForm: React.FC<Props> = ({ calculate, error, isReset }) => {
 
   const submitRef = useRef<HTMLInputElement>(null);
   const [tip, setTip] = useState<number>(0);
-  const [customTip, setCustomTip] = useState<string | undefined>();
+  const [customTip, setCustomTip] = useState<string | undefined>("");
   const [peopleNumber, setPeopleNumber] = useState<string>("");
   const [bill, setBill] = useState<string>("");
 
@@ -40,7 +40,7 @@ const CalculatorForm: React.FC<Props> = ({ calculate, error, isReset }) => {
   };
 
   const handleChangeCustomTip = async ({ target: { value } }: { target: { value: string } }): Promise<void> => {
-    await setTip(value ? Number(value) : 0);
+    await setTip(Number(value));
     setCustomTip(value);
     handleChange();
   };
@@ -60,6 +60,7 @@ const CalculatorForm: React.FC<Props> = ({ calculate, error, isReset }) => {
       <OutlinedInput
         id="bill"
         name="bill"
+        data-testid="bill"
         placeholder="0"
         startAdornment={
           <InputAdornment position="start">
@@ -109,6 +110,7 @@ const CalculatorForm: React.FC<Props> = ({ calculate, error, isReset }) => {
         <OutlinedInput
           id="customTip"
           name="customTip"
+          data-testid="customTip"
           placeholder="Custom"
           className={`${styles.inputWrapper}  ${styles.tipButton}`}
           inputProps={{
@@ -142,6 +144,7 @@ const CalculatorForm: React.FC<Props> = ({ calculate, error, isReset }) => {
       <OutlinedInput
         id="peopleNumber"
         name="peopleNumber"
+        data-testid="peopleNumber"
         placeholder="0"
         startAdornment={
           <InputAdornment position="start">
