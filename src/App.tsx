@@ -7,6 +7,7 @@ import { ThemeProvider } from "@mui/material";
 const theme = createTheme({
   palette: {
     primary: { main: "hsl(172, 67%, 45%)", light: "hsl(185, 41%, 84%)", dark: "hsl(186, 14%, 43%)" },
+    secondary: { main: "hsl(184, 14%, 56%)", light: "hsl(189, 41%, 97%)", dark: " hsl(183, 100%, 15%)" },
     common: { white: "hsl(0, 0%, 100%)" },
   },
   typography: {
@@ -15,6 +16,18 @@ const theme = createTheme({
     fontSize: 24,
     body1: {
       fontSize: 24,
+    },
+    body2: { fontSize: 16 },
+  },
+  components: {
+    MuiOutlinedInput: {
+      styleOverrides: {
+        root: {
+          "&&:hover fieldset": {
+            border: "2px solid hsl(172, 67%, 45%)",
+          },
+        },
+      },
     },
   },
 });
