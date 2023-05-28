@@ -1,8 +1,14 @@
 import React from "react";
 import { Box, Button, Typography } from "@mui/material";
+import { Results as ResultsType } from "pages/calculatorPage/types";
 import styles from "./Results.module.scss";
 
-const Results: React.FC = () => {
+interface Props {
+  results: ResultsType;
+  reset: () => void;
+}
+
+const Results: React.FC<Props> = ({ results, reset }) => {
   return (
     <Box
       sx={{
@@ -21,7 +27,7 @@ const Results: React.FC = () => {
             </Typography>
           </div>
           <Typography className={styles.label} variant="h2" component="span" sx={{ color: "primary.main" }}>
-            $0.00
+            {`$  ${results.tip}`}
           </Typography>
         </div>
         <div className={styles.resultWrapper}>
@@ -34,7 +40,7 @@ const Results: React.FC = () => {
             </Typography>
           </div>
           <Typography className={styles.label} variant="h2" component="span" sx={{ color: "primary.main" }}>
-            $0.00
+            {`$ ${results.total}`}
           </Typography>
         </div>
       </div>
@@ -53,6 +59,7 @@ const Results: React.FC = () => {
           fontSize: 20,
         }}
         variant="contained"
+        onClick={reset}
       >
         RESET
       </Button>

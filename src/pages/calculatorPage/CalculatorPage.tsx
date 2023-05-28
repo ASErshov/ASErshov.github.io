@@ -3,8 +3,11 @@ import React from "react";
 import CalculatorForm from "./components/CalculatorForm/CalculatorForm";
 import styles from "./CalculatorPage.module.scss";
 import Results from "./components/Results.tsx/Results";
+import useCalculator from "./hooks/useCalculator";
 
 const CalculatorPage: React.FC = () => {
+  const { calculate, error, results, reset, isReset } = useCalculator();
+
   return (
     <Box
       sx={{
@@ -24,8 +27,8 @@ const CalculatorPage: React.FC = () => {
           backgroundColor: "common.white",
         }}
       >
-        <CalculatorForm />
-        <Results />
+        <CalculatorForm calculate={calculate} error={error} isReset={isReset} />
+        <Results results={results} reset={reset} />
       </Box>
     </Box>
   );
