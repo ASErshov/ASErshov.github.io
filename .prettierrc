@@ -1,0 +1,28 @@
+{
+  "printWidth": 120,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.{js,ts,jsx,tsx}",
+      "options": {
+        "bracketSpacing": true,
+        "singleQuote": false,
+        "tabWidth": 2,
+        "useTabs": false,
+        "arrowParens": "always",
+        "bracketSameLine": false,
+        "semi": true,
+        "trailingComma": "all"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.{yaml,yml,json,graphql}"
+    }
+  ]
+}
