@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches DOM Snapshot 1`] = `
+<div
+  className="mainWrapper MuiBox-root css-15n1q6g"
+>
+  <h1
+    className="MuiTypography-root MuiTypography-body1 title css-gtcsjv-MuiTypography-root"
+  >
+    SPLI
+  </h1>
+  <h1
+    className="MuiTypography-root MuiTypography-body1 title css-gtcsjv-MuiTypography-root"
+  >
+    TTER
+  </h1>
+  <div
+    className="calculatorWrapper MuiBox-root css-1k9ek97"
+  >
+    <form
+      className="mainWrapper"
+      onSubmit={[Function]}
+    >
+      <span
+        className="MuiTypography-root MuiTypography-body2 label css-htvaao-MuiTypography-root"
+      >
+        Bill
+      </span>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-sizeSmall MuiInputBase-adornedStart inputWrapper css-kgyakk-MuiInputBase-root-MuiOutlinedInput-root"
+        data-testid="bill"
+        onClick={[Function]}
+      >
+        <div
+          className="MuiInputAdornment-root MuiInputAdornment-positionStart css-ittuaa-MuiInputAdornment-root"
+        >
+          <span
+            className="notranslate"
+          >
+            ​
+          </span>
+          <svg>
+            icon-dollar.svg
+          </svg>
+        </div>
+        <input
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart input css-1pe19lk-MuiInputBase-input-MuiOutlinedInput-input"
+          id="bill"
+          name="bill"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="0"
+          type="number"
+          value=""
+        />
+        <fieldset
+          aria-hidden={true}
+          className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="css-ihdtdm"
+          >
+            <span
+              className="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <span
+        className="MuiTypography-root MuiTypography-body2 label css-htvaao-MuiTypography-root"
+      >
+        Select Tip %
+      </span>
+      <div
+        className="tipWrapper MuiBox-root css-0"
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium tipButton css-1n3tt0b-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          5%
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium tipButton css-1n3tt0b-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          10%
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium tipButton css-1n3tt0b-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          15%
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium tipButton css-1n3tt0b-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          25%
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium tipButton css-1n3tt0b-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          50%
+        </button>
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-sizeSmall inputWrapper  tipButton css-1whsbrh-MuiInputBase-root-MuiOutlinedInput-root"
+          data-testid="customTip"
+          onClick={[Function]}
+        >
+          <input
+            className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall input css-19s102u-MuiInputBase-input-MuiOutlinedInput-input"
+            id="customTip"
+            name="customTip"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Custom"
+            type="number"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-ihdtdm"
+            >
+              <span
+                className="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        className="peopleLableWrapper label"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-body2 css-htvaao-MuiTypography-root"
+        >
+          Number of people
+        </span>
+      </div>
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-sizeSmall MuiInputBase-adornedStart inputWrapper  css-kgyakk-MuiInputBase-root-MuiOutlinedInput-root"
+        data-testid="peopleNumber"
+        onClick={[Function]}
+      >
+        <div
+          className="MuiInputAdornment-root MuiInputAdornment-positionStart css-ittuaa-MuiInputAdornment-root"
+        >
+          <span
+            className="notranslate"
+          >
+            ​
+          </span>
+          <svg>
+            icon-person.svg
+          </svg>
+        </div>
+        <input
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart input css-1pe19lk-MuiInputBase-input-MuiOutlinedInput-input"
+          id="peopleNumber"
+          name="peopleNumber"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="0"
+          type="number"
+          value=""
+        />
+        <fieldset
+          aria-hidden={true}
+          className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="css-ihdtdm"
+          >
+            <span
+              className="notranslate"
+            >
+              ​
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <input
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        type="submit"
+      />
+    </form>
+    <div
+      className="mainWrapper MuiBox-root css-4ozt90"
+    >
+      <div>
+        <div
+          className="resultWrapper"
+        >
+          <div
+            className="titleWrapper"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-body2 css-1cl5n3e-MuiTypography-root"
+            >
+              Tip Amount
+            </span>
+            <span
+              className="MuiTypography-root MuiTypography-body2 css-d9r3jl-MuiTypography-root"
+            >
+              /person
+            </span>
+          </div>
+          <span
+            className="MuiTypography-root MuiTypography-h2 label css-wf8t3v-MuiTypography-root"
+          >
+            $  0.00
+          </span>
+        </div>
+        <div
+          className="resultWrapper"
+        >
+          <div
+            className="titleWrapper"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-body2 css-1cl5n3e-MuiTypography-root"
+            >
+              Total
+            </span>
+            <span
+              className="MuiTypography-root MuiTypography-body2 css-d9r3jl-MuiTypography-root"
+            >
+              / person
+            </span>
+          </div>
+          <span
+            className="MuiTypography-root MuiTypography-h2 label css-wf8t3v-MuiTypography-root"
+          >
+            $ 0.00
+          </span>
+        </div>
+      </div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium resultButton css-14y9evz-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[MockFunction]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        RESET
+      </button>
+    </div>
+  </div>
+</div>
+`;
