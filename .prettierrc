@@ -22,7 +22,7 @@
       }
     },
     {
-      "files": "*.{yaml,yml,json,graphql}"
+      "files": "*.{yaml,yml,json}"
     }
   ]
 }
