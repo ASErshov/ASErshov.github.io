@@ -11,8 +11,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
+  overflow: hidden;
 }
 
 #root {
   height: calc(100% - 15px);
+  overflow: auto;
 }
