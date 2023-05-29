@@ -1,10 +1,12 @@
 @import "../../../../mixins/breakpoints.scss";
 .mainWrapper {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   width: 100%;
+  min-height: 258px;
   border-radius: 20px;
   padding: 20px 24px 24px 24px;
   box-sizing: border-box;
@@ -32,6 +34,7 @@
 
 @include breakpoint("laptopLandscape") {
   .mainWrapper {
+    flex: none;
     width: 412px;
     padding: 12px 38px 40px 38px;
   }

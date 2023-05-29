@@ -5,8 +5,8 @@
 }
 
 .mainWrapper {
-  @extend %fullscreen-size;
-
+  width: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,7 @@
 .calculatorWrapper {
   @extend %fullscreen-size;
 
+  flex: 1;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
@@ -33,27 +34,26 @@
 }
 
 @include breakpoint("laptopPortrait") {
-  .mainWrapper {
-    padding: 40px 10% 0 10%;
+  .calculatorWrapper {
+    margin: 32px auto 0 auto;
+    width: 80%;
   }
 }
 
 @include breakpoint("laptopLandscape") {
-  .calculatorWrapper {
-    flex-direction: row;
-    column-gap: 32px;
-    padding: 32px;
-  }
-
   .mainWrapper {
-    padding: 40px 0 0 0;
+    padding: 40px 0;
   }
 
   .calculatorWrapper {
+    flex: none;
     height: 480px;
     width: 920px;
     border-radius: 24px;
-    margin-top: 80px;
+    margin: 80px 0 0 0;
+    flex-direction: row;
+    column-gap: 32px;
+    padding: 32px;
   }
 }
 
